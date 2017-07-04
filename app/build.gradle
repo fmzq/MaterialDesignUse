@@ -25,18 +25,18 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.jakewharton:butterknife:8.6.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-
-    //butterknife
     compile 'com.jakewharton:butterknife:8.6.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
 
-    //gson
-    compile'com.google.code.gson:gson:2.8.0'
-    //design
-    compile 'com.android.support:design:25.3.1'
-    //recyclerview
-    compile 'com.android.support:recyclerview-v7:25.3.1'
+    //沉浸式状态导航栏
+    compile 'com.gyf.barlibrary:barlibrary:2.2.5'
+    compile 'me.imid.swipebacklayout.lib:library:1.0.0'
 }

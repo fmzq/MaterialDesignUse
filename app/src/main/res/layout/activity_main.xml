@@ -3,10 +3,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.joken.materialdesignuse.MainActivity">
 
-
+    <Button
+        android:id="@+id/btn_pic"
+        style="@style/btn"
+        android:text="全屏图片" />
+    <Button
+        android:id="@+id/btn_coordinator"
+        style="@style/btn"
+        android:text="结合CoordinatorLayout使用" />
 </LinearLayout>
